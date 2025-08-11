@@ -1,0 +1,18 @@
+import java.util.*;
+class sreies{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int num=sc.nextInt();
+        double sum=0.0;
+        String series="";
+        for(int i=2;i<=num;i+=2){
+            sum+=1.0/i;
+            series="1/"+1;
+            if(i+2<=num){
+                series+="+";
+            }
+        }
+        System.out.println("series"+series);
+         System.out.println("sum"+sum);
+    }
+}
